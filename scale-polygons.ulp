@@ -26,7 +26,7 @@ if (!symbol) {
     exit(EXIT_FAILURE);
 }
 
-/* Ask use the scale factor. */
+/* Ask user the scale factor. */
 real scale = 1.0;
 int result = dlgDialog("Scale polygons") {
     dlgVBoxLayout {
